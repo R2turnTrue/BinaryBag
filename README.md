@@ -1,2 +1,2 @@
 # BinaryBag
-A Binary download/installer
+A Opensource Binary download/installer
