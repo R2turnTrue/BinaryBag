@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/NamuTree0345/BinaryBag/issues"
   },
-  "homepage": "https://github.com/NamuTree0345/BinaryBag#readme"
+  "homepage": "https://github.com/NamuTree0345/BinaryBag#readme",
+  "devDependencies": {
+    "electron": "^9.2.0"
+  }
 }
