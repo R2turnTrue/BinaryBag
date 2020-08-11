@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "electron ."
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
     },
     "repository": {
         "type": "git",
@@ -24,6 +26,13 @@
     },
     "homepage": "https://github.com/NamuTree0345/BinaryBag#readme",
     "devDependencies": {
-        "electron": "^9.2.0"
+        "electron": "^9.2.0",
+        "electron-builder": "^22.8.0"
+    },
+    "build": {
+        "appId": "xyz.gwcr.honran.namutree0345.binaryBag",
+        "mac": {
+            "target": "dmg"
+        }
     }
 }
