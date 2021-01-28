@@ -26,7 +26,7 @@
     },
     "homepage": "https://github.com/NamuTree0345/BinaryBag#readme",
     "devDependencies": {
-        "electron": "^9.2.0",
+        "electron": "^9.4.0",
         "electron-builder": "^22.8.0"
     },
     "build": {
